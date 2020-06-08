@@ -55,7 +55,7 @@
 
 \title{CSCE 155 - C}
 \subtitle{Lab 1.0 - Introduction}
-\author{Dr.\ Chris Bourke}
+\author{Cole Peterson}
 \date{~}
 
 \begin{document}
@@ -136,7 +136,7 @@ find useful:
 
 \subsection{Basic Unix Commands}
 
-Much of your work will be done on the command line.  Take a moment to 
+Much of your work will be done on the command line in the Terminal application.  Take a moment to 
 familiarize yourself with the following basic commands.  A more comprehensive 
 tutorial on unix commands is available here: \url{http://www.math.utah.edu/lab/unix/unix-commands.html}.
 \begin{itemize}
@@ -156,7 +156,7 @@ tutorial on unix commands is available here: \url{http://www.math.utah.edu/lab/u
 
 Programming requires that you write code in a source file: a plain text file that 
 contains syntactically valid programming commands.  In general, any plain 
-text editor can facilitate this (MS Word is not a plain text editor).  The lab 
+text editor can facilitate this (MS Word is not a plain text editor). Atom is already installed on your VM already. The lab 
 instructor will demonstrate some of the following options: 
 \begin{itemize}
   \item jpico
@@ -179,13 +179,8 @@ in pairs or groups.
 
 To check out the code for this lab, do the following.
 \begin{enumerate}
-  \item If you haven't already, connect to the CSE server using PuTTY as follows:
-  \begin{enumerate}
-    \item Open PuTTY (this is a Secure Shell Client, SSH)
-    \item Enter the address \mintinline{text}{cse.unl.edu}
-    \item Click ``Open''
-    \item Login using your CSE credentials (you may be prompted to change your password the first time).
-  \end{enumerate}
+  \item If you haven't already, install VMWare Horizon Client and connect to the VM pool with your CSE login
+  \item Open the Terminal application
   \item In your home directory, create a new directory for all your labs:\\  
   \mintinline{text}{mkdir labs}  
   \item Verify that this worked by listing the contents of your directory by
@@ -193,7 +188,7 @@ To check out the code for this lab, do the following.
    \item Go to this directory by changing your directory:\\
   \mintinline{text}{cd labs}
   \item ``Clone'' this lab's code by using the following command:\\
-  \mintinline{text}{git clone https://github.com/cbourke/CSCE155-C-Lab01}
+  \mintinline{text}{git clone https://github.com/clptrsn/CSCE155-C-Lab01}
   \item A new directory, \mintinline{text}{CSCE155-C-Lab01} should be created, 
   go to this directory by typing \mintinline{text}{cd CSCE155-C-Lab01}.
   \item List the contents of this directory by typing \mintinline{text}{ls}.  If
@@ -290,19 +285,5 @@ web grader.  To demonstrate, do the following.
 Demonstrate your working programs to a lab instructor, answer all the 
 questions on your lab worksheet, and have them sign off on it.
 
-\section*{Resources}
-
-\begin{itemize} 
-  \item Windows users can download and use PuTTY on their own machines: \\
-  	\url{http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html}
-  \item Mac users already have an SSH client as part of their OS.  Open a terminal and type:
-  	\mintinline{text}{ssh login@cse.unl.edu} where login is replaced with
-	your own login; provide your password and you're at the CSE command line
-  \item You may also find FileZilla useful (\url{http://filezilla-project.org/}).  It is a 
-  	free File Transfer Protocol (FTP) client that you can use to transfer files 
-	back and forth from your machine to your CSE account.
-  \item Many other options exist for developing code on your own machine, see the 
-    course page for more resources.
-\end{itemize}
 
 \end{document}
