@@ -1,7 +1,7 @@
 /**
- * Author: Chris Bourke
- *         cbourke@cse.unl.edu
- * Date: 2020/03/26
+ * Author: Rezdar Omer
+ *         romer2@unl.edu
+ * Date: 06/07/2021
  *
  * A simple hello world program in C
  *
@@ -11,7 +11,7 @@
 
 int main(int argc, char **argv) {
 
-  printf("Hello World!\n");
+  printf("Rezdar Omer\n");
 
   return 0;
 }
